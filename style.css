@@ -1,0 +1,293 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+html
+{
+    background: url("img/backgroundpic.jpeg") center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    /* display: flex; */
+}
+
+* {
+    font-family: 'Gochi Hand', cursive;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 100%;
+    min-height: 80px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+#title {
+    font-family: 'Handlee',cursive;
+    font-weight:bold;
+    background-color: rgb(255, 142, 142);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 30.4px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    justify-content: center;
+    /* margin: auto auto; */
+}
+
+#clock {
+    background-color: rgb(255, 142, 142);
+    width: 100%;
+    font-size: 20.8px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    text-align: right;
+    color:black;
+    
+}
+
+#todoBox {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    width:50%;
+    margin: auto;
+    margin-top: 2em;
+    padding: 20px;
+    box-sizing:border-box;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#completedBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    /* background: rgba(197, 195, 195, 0.95); */
+    
+    /* box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1); */
+
+}
+
+#todoBox .todoLists .todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1.5px solid black;
+}
+
+
+.todo h1{
+    height: 10%;
+    margin: 20px 10px 15px;
+    box-sizing: border-box;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.completed p{
+    height: 10%;
+    margin: 10px 10px 15px;
+    box-sizing: border-box;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.writetodo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+}
+
+.todoInput {
+    width: 75%;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid grey;
+    border-radius:10px;
+    box-sizing: border-box;
+    font-size: 14.4px;
+    font-size: 0.9rem;
+}
+
+button {
+    width: 15%;
+    height: 30px;
+    border: none;
+    border-radius: 13px;
+    color: white;
+    font-size: 14.4px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.addTodobtn
+{
+    background:rgb(88, 99, 243);
+}
+
+.addTodobtn:hover {
+    background: rgb(13, 28, 236);
+}
+
+.deleteAll{
+    width: 20%;
+    margin: 12px auto;
+    margin-left:30px;
+    background:white;
+    text-decoration-line:underline;
+    color:grey;  
+}
+
+.deleteAll:hover{
+    color:black;
+}
+
+.deleteCompletedAll{
+    color:rgb(255, 61, 61);
+    margin-left:20px;
+    background-color:rgb(194, 192, 192);
+}
+
+.deleteCompletedAll:hover {
+    color: red;
+    background-color:white;
+}
+
+.todoLists, .completedLists {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    box-sizing: border-box;
+    width : 100%;
+}
+
+.todoLists .todo,
+.completedLists .todo {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     justify-self: center;
+     position: relative;
+     width: 100%;
+     height: 40px;
+     line-height: 40px;
+     border-bottom: 1.5px solid black;
+}
+
+.todoLists .todo>button,
+.completedLists .todo>button{
+      /* border-radius: 50px; */
+      background-color: white;
+      transition: opacity 0.3s;
+      opacity: 0.8;
+      font-size:xx-large;
+      /* text-align: center; */
+}
+
+
+.itemClicked,
+.delItemClicked,
+.itemClickedmovedToCompleted,
+.delItemClicked,
+.movedTotodo,
+.movedTotodomovedToCompleted
+{
+     width: 15%;
+     height: 80%;
+     margin: 0 5px;
+     font-size: 24px;
+     font-size: 1.5rem;
+}
+
+.itemClickedmovedToCompleted,
+.movedTotodomovedToCompleted
+{
+    width: 10%;
+}
+
+.todoLists .todo .item,
+.completedLists .todo .item{
+     width: 10%;
+     height: 80%;
+     margin: 0 5px;
+     font-size: 24px;
+     font-size: 1.5rem;
+     font-weight: bold;
+}
+
+.todoLists .todo .itemClicked,
+.todoLists .todo .movedTotodo {
+    background-color: rgb(88, 99, 243);
+}
+.todoLists .todo .itemClicked:hover,
+.todoLists .todo .movedTotodo:hover{
+    background-color:blue;
+}
+
+.todoLists .todo .delItemClicked,
+.completedLists .todo .delItemClicked
+ {
+    background-color: white;
+    color:red;
+}
+
+
+.completedLists .todo .itemClickedmovedToCompleted,
+.completedLists .todo .movedTotodomovedToCompleted {
+    background-color: rgb(250, 50, 50);
+}
+.completedLists .todo .itemClickedmovedToCompleted:hover,
+.completedLists .todo .movedTotodomovedToCompleted:hover{
+    background-color: red;
+}
+
+.todoLists .todo .item,
+.completedLists .todo .item {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.completedLists .item {
+    text-decoration-line :line-through;
+    color:slategrey;
+}
+
+

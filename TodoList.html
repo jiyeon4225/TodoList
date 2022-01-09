@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="JiyeonPark">
+   
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="style.css">
+
+     <title> To Do List </title>
+</head>
+
+<body>
+    <div id=wrapper>
+        <header id="header">
+            <div id= "title">My To Do List</div>
+            <div id= "clock"></div>
+        </header>
+
+        <div id=todoBox>
+            <div class="todo">
+                 <h1> To Do </h1>
+            </div>
+            <div class= writetodo>
+                     <input type="text" class="todoInput" placeholder="할 일을 입력하세요" autofocus required \>
+                     <button class="addTodobtn">추가</button>
+             </div>
+        
+            <button class="deleteAll">전체 삭제</button>
+            <ul  class="todoLists"></ul>
+        </div>
+
+        <div id=completedBox>
+            <div class="completed">
+                <p> &#10004; Completed  </p>
+            </div>
+             <button class="deleteCompletedAll">전체 삭제</button>
+             <ul class="completedLists"></ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="clock.js"></script>
+
+</body>
+</html>
