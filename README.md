@@ -2,7 +2,7 @@
                                                📝 TodoList
 
 
-<img width="600" alt="Screen Shot 2022-01-09 at 7 10 13 PM" src="https://user-images.githubusercontent.com/94300810/148677925-   c5111e14-49a1-4536-88ae-f4113953eae0.png">
+<img width="700" alt="todolist_mainpage_screenshot" src="https://user-images.githubusercontent.com/94300810/148677925-   c5111e14-49a1-4536-88ae-f4113953eae0.png">
 
 ✏️ Description 
  Vanila Javascript로 TodoList만들기
