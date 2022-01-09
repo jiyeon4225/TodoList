@@ -1,8 +1,8 @@
 # https://queenjiji.github.io/TodoList.html
-                                             📝 TodoList
+                                               📝 TodoList
 
 
-<img width="500" alt="Screen Shot 2022-01-09 at 7 10 13 PM" src="https://user-images.githubusercontent.com/94300810/148677925-c5111e14-49a1-4536-88ae-f4113953eae0.png">
+   <img width="600" alt="Screen Shot 2022-01-09 at 7 10 13 PM" src="https://user-images.githubusercontent.com/94300810/148677925-   c5111e14-49a1-4536-88ae-f4113953eae0.png">
 
 ✏️ Description 
  Vanila Javascript로 TodoList만들기
@@ -23,3 +23,6 @@
    5) 화면을 브라우저에서 다시 열람시 모든 내용 유지
 
 --------------------------------------------------------------
+
+
+--> 바로가기 : https://queenjiji.github.io/TodoList.html
