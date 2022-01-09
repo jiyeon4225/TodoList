@@ -1,10 +1,9 @@
 # queenJiJi.github.io
 TodoList
 
-<Description>
+Description
 Vanila Javascript로 TodoList만들기
 
 -------------------------------------------------------
 
-<Main Page :memo:
-:pencil:>
+Main Page📝
