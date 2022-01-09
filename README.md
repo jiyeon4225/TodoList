@@ -1,8 +1,9 @@
 # https://queenjiji.github.io/TodoList.html
                                                📝 TodoList
 
+<img width="800" alt="mainpage" src="https://user-images.githubusercontent.com/94300810/148678673-c4d35ddb-2ac1-42f8-8cdc-da40801d02c8.png">
 
-<img width="700" alt="todolist_mainpage_screenshot" src="https://user-images.githubusercontent.com/94300810/148677925-   c5111e14-49a1-4536-88ae-f4113953eae0.png">
+
 
 ✏️ Description 
  Vanila Javascript로 TodoList만들기
