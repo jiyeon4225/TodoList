@@ -7,7 +7,6 @@ html
     background: url("img/backgroundpic.jpeg") center no-repeat;
     background-size: cover;
     min-height: 100vh;
-    /* display: flex; */
 }
 
 * {
@@ -45,7 +44,6 @@ html
     font-size: 1.9rem;
     font-weight: bold;
     justify-content: center;
-    /* margin: auto auto; */
 }
 
 #clock {
@@ -81,10 +79,6 @@ html
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    /* background: rgba(197, 195, 195, 0.95); */
-    
-    /* box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1); */
-
 }
 
 #todoBox .todoLists .todo {
@@ -208,12 +202,10 @@ button {
 
 .todoLists .todo>button,
 .completedLists .todo>button{
-      /* border-radius: 50px; */
       background-color: white;
       transition: opacity 0.3s;
       opacity: 0.8;
       font-size:xx-large;
-      /* text-align: center; */
 }
 
 
