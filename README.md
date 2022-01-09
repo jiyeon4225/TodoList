@@ -1,5 +1,5 @@
 # https://queenjiji.github.io/TodoList.html
-                                               📝 TodoList
+                                          📝 TodoList
 
 <img width="800" alt="mainpage" src="https://user-images.githubusercontent.com/94300810/148678673-c4d35ddb-2ac1-42f8-8cdc-da40801d02c8.png">
 
